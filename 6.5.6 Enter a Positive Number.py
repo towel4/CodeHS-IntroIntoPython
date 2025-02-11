@@ -8,5 +8,5 @@ def retrieve_positive_number():
         except ValueError:
             print("That wasn't a number!")
 
-# Call the function and print
-print retrieve_positive_number()
+# Call the function and print the returned value
+print(retrieve_positive_number())
